@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img{
+    width: 100px;
+}
+
+
+nav .logo h2{
+    color:#40485d;
+}
+
+nav .links button{
+    border: none;
+    color: white;
+    background: linear-gradient(to left , #5aebfe, #51b9ff);   
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+

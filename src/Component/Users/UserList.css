@@ -1,0 +1,113 @@
+.llist{
+    background-color: #EEE;
+    width: 900px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0  40px;
+}
+
+.container .llist .row-title{
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px 10px  ;
+}
+
+.container .llist .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px  ;
+    background-color: rgb(244, 242, 242);
+
+}
+
+.container .llist .row .vector{
+    display: flex;
+    align-items: center;
+    width:300px ;
+    height: 50px;
+}
+
+.container .llist .row .vector img{
+    width: 50px;
+    margin-right:10px ;
+}
+.container .llist .row .vector p {
+    font-weight: bold;
+}
+
+.container .llist .row .committe{
+    width: 200px;
+    display: flex;
+align-items: center;
+
+}
+
+.container .llist .row .committe {
+    font-weight: bold;
+}
+
+.container .llist .row .btn-group
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .llist .row .btn-group button{
+    border: none;
+    background-color: #0075FF; 
+    padding: 10px 22px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.container .llist .row .btn-group button:hover{
+    background-color: #076adb; 
+
+}
+
+.container .llist .row .btn-group button.btn-delete{
+    background-color: red;
+}
+
+.container .llist .row .btn-group button.btn-delete:hover{
+    background-color: rgb(226, 16, 16);
+}
+
+.container .control{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .control h5{
+    font-size: 30px;
+    margin: 20px 0 ;
+    margin-left: 5px;
+}
+
+.container .control input{
+    width: 600px;
+    max-width: 100%;
+    height: 50px;
+    border: 1px solid #EEE;
+    border-radius: 6px;
+    padding: 4px 10px; 
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.container .control input:focus{
+    outline: none;
+}
